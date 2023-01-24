@@ -182,7 +182,6 @@ img.bg-part {
 }
 
 .h2{
-
     text-transform: uppercase;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -219,6 +218,67 @@ img.bg-part {
     padding-top: 50px;
     padding-bottom: 70px;
 }
+
+
+
+.home5{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+
+}
+
+.card-group{
+    display: inline;
+    justify-content: space-between;
+    width: 75%;
+}
+
+
+.card{
+    width: 75%;
+    border: none;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-footer{
+    margin-top: -50px;
+    background-color: white;
+    border:none;
+}
+
+
+.home7{
+    display: block;
+    background-image: url("img/home-res-bg.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    z-index: 2;
+}
+
+.slider {
+    width: 100%;
+    margin: 100px auto;
+}
+
+
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+
+
 
 
 
